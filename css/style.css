@@ -4,5 +4,5 @@ body {
   position: fixed;
 }
 img {
-  visibility: hidden;
+  visibility: visible;
 }
