@@ -3,3 +3,6 @@ body {
   overflow: hidden;
   position: fixed;
 }
+img {
+  visibility: hidden;
+}
