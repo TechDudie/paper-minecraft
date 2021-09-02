@@ -5,4 +5,5 @@ body {
 }
 img {
   visibility: visible;
+  image-rendering: pixelated;
 }
