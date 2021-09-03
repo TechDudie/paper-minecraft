@@ -7,6 +7,8 @@
 <body>
 <canvas id="world" width="960" height="720" style="border:1px solid white;"></canvas>
 <div id="img"></div>
+<script src="lib/perlin.js"></script>
+<script src="js/main.js"></script>
 <script>
 var img = ["apple","chest","cobble","crafting_table","diamond","dirt","dirt_with_grass","furnace","furnace_active","grass","iron","leaves","log","plank","sapling","stone","torch","water"];
 function add_img(image_name, image_index, image_array) {
@@ -14,7 +16,5 @@ function add_img(image_name, image_index, image_array) {
 }
 img.forEach(add_img);
 </script>
-<script src="js/main.js"></script>
-<script src="js/perlin.js"></script>
 </body>
 </html>
